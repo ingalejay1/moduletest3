@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { USER_API_END_POINT, TASK_API_END_POINT } from '../../utils/constant';
-import '../Styles/addPeoplePopup.css';
+import '../Styles/AddPeoplePopup';
 
 const AddPeoplePopup = ({ setShowAddPeople, setShowAddPeople2, email, setEmail, user }) => {
     const [userEmails, setUserEmails] = useState([]);
