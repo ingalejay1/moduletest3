@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import DeleteChecklistIcon from '../../assets/DeleteIcon.png';
-import '../styles/AddTaskPopup.css';
+import '../Styles/AddTaskPopup.css';
 import axios from 'axios';
 import { TASK_API_END_POINT, USER_API_END_POINT } from '../../utils/constant';
 

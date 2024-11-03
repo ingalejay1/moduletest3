@@ -8,7 +8,7 @@ import { USER_API_END_POINT } from '../../utils/constant';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import '../styles/Register.css';
+import '../Styles/Register.css';
 
 const Register = ({ setShowRegister }) => {
     const [isPassword1Visible, setIsPassword1Visible] = useState(false);

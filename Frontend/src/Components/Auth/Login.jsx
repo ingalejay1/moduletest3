@@ -8,7 +8,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import '../styles/Register.css';
+import '../Styles/Register.css';
 
 const Login = ({ setShowRegister, setUser }) => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);

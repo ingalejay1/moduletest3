@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/LogoutPopup.css';
+import '../Styles/LogoutPopup.css';
 
 const DeleteTaskPopup = ({ setShowDeleteTask, deleteTaskHandler }) => {
   return (

@@ -3,7 +3,7 @@ import { USER_API_END_POINT } from '../../utils/constant';
 import { toast } from "react-toastify";
 import { ToastContainer } from 'react-toastify';
 import axios from "axios";
-import '../Styles/logoutPopup.css';
+import '../Styles/LogoutPopup.css';
 import { useNavigate } from 'react-router-dom';
 
 const LogoutPopup = ({ setShowLogoutPopup, setUser }) => {
