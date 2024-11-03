@@ -8,8 +8,8 @@ import BoardIcon from "../assets/BoardIcon.png";
 import AnalyticsIcon from "../assets/AnalyticsIcon.png";
 import SettingsIcon from "../assets/SettingsIcon.png";
 import LogoutIcon from "../assets/LogoutIcon.png";
-import Board from '../Components/Board.jsx';
-import Analytics from '../Components/Analytics';
+import Board from './Board.jsx';
+import Analytics from './Analytics.jsx';
 import Settings from './Settings.jsx'
 import '../Components/Styles/Dashboard.css'
 import LogoutPopup from '../Components/Popup/LogoutPopup';
