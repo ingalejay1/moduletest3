@@ -11,11 +11,11 @@ import LogoutIcon from "../assets/LogoutIcon.png";
 import Board from './Board.jsx';
 import Analytics from './Analytics.jsx';
 import Settings from './Settings.jsx'
-import '../components/Styles/Dashboard.css'
-import LogoutPopup from '../components/Popup/LogoutPopup';
-import AddPeoplePopup from '../components/Popup/AddPeoplePopup';
-import AddTaskPopup from '../components/Popup/AddTaskPopup';
-import AddPeoplePopup2 from '../components/Popup/AddPeoplePopup2';
+import './Styles/Dashboard.css'
+import LogoutPopup from './Popup/LogoutPopup.jsx';
+import AddPeoplePopup from './Popup/AddPeoplePopup.jsx';
+import AddTaskPopup from './Popup/AddTaskPopup.jsx';
+import AddPeoplePopup2 from './Popup/AddPeoplePopup2.jsx';
 
 const Dashboard = () => {
     const { user, setUser } = useUser();
