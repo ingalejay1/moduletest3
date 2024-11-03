@@ -28,7 +28,7 @@ const Dashboard = () => {
     const [showAddTask, setShowAddTask] = useState(false);
     const [showLinkCopied, setShowLinkCopied] = useState(false);
     const [email, setEmail] = useState("");
-    const [showDeleteTask, setShowDeleteTask] = useState(false);
+    // const [showDeleteTask, setShowDeleteTask] = useState(false);
 
 
     useEffect(() => {
