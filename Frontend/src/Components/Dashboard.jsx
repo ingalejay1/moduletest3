@@ -8,7 +8,7 @@ import BoardIcon from "../assets/BoardIcon.png";
 import AnalyticsIcon from "../assets/AnalyticsIcon.png";
 import SettingsIcon from "../assets/SettingsIcon.png";
 import LogoutIcon from "../assets/LogoutIcon.png";
-import Board from '../components/Board.jsx';
+import Board from '../Components/Board.jsx';
 import Analytics from '../Components/Analytics';
 import Settings from '../components/Settings';
 import '../Components/Styles/Dashboard.css'
