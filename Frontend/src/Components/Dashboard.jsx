@@ -10,7 +10,7 @@ import SettingsIcon from "../assets/SettingsIcon.png";
 import LogoutIcon from "../assets/LogoutIcon.png";
 import Board from '../components/Board.jsx';
 import Analytics from './Analytics.jsx';
-import Settings from '../Components/Settings.jsx'
+import Settings from './Settings.jsx'
 import '../components/Styles/Dashboard.css'
 import LogoutPopup from '../components/Popup/LogoutPopup';
 import AddPeoplePopup from '../components/Popup/AddPeoplePopup';
