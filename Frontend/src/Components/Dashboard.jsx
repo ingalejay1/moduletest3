@@ -10,9 +10,9 @@ import SettingsIcon from "../assets/SettingsIcon.png";
 import LogoutIcon from "../assets/LogoutIcon.png";
 import Board from '../Components/Board.jsx';
 import Analytics from '../Components/Analytics';
-import Settings from '../components/Settings';
+import Settings from '../Components/Settings.jsx'
 import '../Components/Styles/Dashboard.css'
-import LogoutPopup from '../components/Popup/LogoutPopup';
+import LogoutPopup from '../Components/Popup/LogoutPopup';
 import AddPeoplePopup from '../Components/Popup/AddPeoplePopup';
 import AddTaskPopup from '../Components/Popup/AddTaskPopup';
 import AddPeoplePopup2 from '../Components/Popup/AddPeoplePopup2';
