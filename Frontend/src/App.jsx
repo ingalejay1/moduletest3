@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
-import Dashboard from './Components/Dashboard';
-import NotFound from './Components/NotFound';
-import Form from './Components/Form'
+import Dashboard from './components/Dashboard';
+import NotFound from './components/NotFound';
+import Form from './components/Form'
 import { UserProvider, useUser } from './UserContext';
-import SharedTask from './Components/ShareTask';
+import SharedTask from './components/ShareTask';
 
 function AppRouter() {
   const { user, setUser } = useUser();
