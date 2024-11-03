@@ -8,14 +8,14 @@ import BoardIcon from "../assets/BoardIcon.png";
 import AnalyticsIcon from "../assets/AnalyticsIcon.png";
 import SettingsIcon from "../assets/SettingsIcon.png";
 import LogoutIcon from "../assets/LogoutIcon.png";
-import Board from './Board.jsx';
+import Board from '../components/Board.jsx';
 import Analytics from './Analytics.jsx';
-import Settings from './Settings.jsx'
-import '../Components/Styles/Dashboard.css'
-import LogoutPopup from '../Components/Popup/LogoutPopup';
-import AddPeoplePopup from '../Components/Popup/AddPeoplePopup';
-import AddTaskPopup from '../Components/Popup/AddTaskPopup';
-import AddPeoplePopup2 from '../Components/Popup/AddPeoplePopup2';
+import Settings from '../Components/Settings.jsx'
+import '../components/Styles/Dashboard.css'
+import LogoutPopup from '../components/Popup/LogoutPopup';
+import AddPeoplePopup from '../components/Popup/AddPeoplePopup';
+import AddTaskPopup from '../components/Popup/AddTaskPopup';
+import AddPeoplePopup2 from '../components/Popup/AddPeoplePopup2';
 
 const Dashboard = () => {
     const { user, setUser } = useUser();
